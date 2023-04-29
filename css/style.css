@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.btn{
+    
+color: #fff;
+    
+text-transform: capitalize;
+    
+font-weight: 700;
+    
+font-size: 20px;
+    
+background: #edc315;
+    
+padding: 5px 40px;
+    
+border-radius: 30px;
+}
+header{
+    background-image: url(../images/header-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fixed_navbar{
+   
+}
+.navbar_section{
+    background: transparent;
+    color: #fff;
+    min-height: 20vh;
+    position: relative;
+}
+.navbar_section::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #507bb7;
+    opacity: .7;
+}
+.navbar-brand{
+}
+.nav-link{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+    margin-left: 40px;
+    text-transform: capitalize;
+}
+/* banner section */
+.banner_section{
+
+min-height: 100vh;
+
+display: flex;
+
+align-items: center;
+}
+.banner{
+
+}
+.banner h1{
+    
+font-size: 55px;
+    
+font-weight: 500;
+}
+.banner p{
+    
+font-size: 24px;
+    
+font-style: italic;
+    
+margin: 40px 0px;
+}
+
+/* banner section  end*/
+/* petshop section starts from here */
+.pet_section{
+    min-height: 140vh;
+    background: #739ee3;
+    position: relative;
+    padding: 70px 0px;
+    z-index: -0;
+}
+.pet_section::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image:url(../images/petshop-bg.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size:cover;
+    z-index: -1;
+}
+.pet_title{
+}
+.pet_title h1{
+    
+font-size: 50px;
+    
+font-weight: 700;
+}
+.pet_title p{
+    
+position: relative;
+    
+font-size: 27px;
+}
+.pets{z-index: 999;text-align: center;margin-top: 100px;}
+.pets img{
+    
+}
+.pets h4{
+    
+font-size: 35px;
+    
+margin-top: 25px;
+}
+.pets p{
+    
+font-size: 21px;
+    
+margin-top: 20px;
+}
+/* pet help section starts from here */
+.pethelp_section{
+    background-image: url(../images/pet-help.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 140vh;
+    padding: 70px 0;
+}
+.pethelp_content{margin-top: 13rem;height: 250px;border: 10px solid white;text-align: center;display: flex;align-items: center;border-radius: 1000px;color: #fff;}
+.pethelp_content h4{font-size: 3rem;font-weight: 700;}
+.pethelp_content p{
+    
+font-size: 1.5rem;
+}
+.pet_con_child{
+    
+margin: auto;
+}
+
+/* pet help section ends here */
+/* gallery_section starts from here */
+.gallery_section{
+    background: black;
+    padding: 30px 0;
+    text-align: center;
+}
+.image_container{
+
+}
+.image_container img{
+    width: 350px;
+    height: 350px;
+    margin: 2px 0;
+}
+
+/* gallery_section ends here */
+/* pet_footprint section starts from here */
+.pet_footprint{background: #5380c1;padding: 50px 0px;}
+.footprint{
+
+background: #fff;
+
+text-align: center;
+
+height: 400px;
+
+width: 90%;
+
+padding: 15px;
+
+border-radius: 10px;
+}
+.footprint h2{
+    
+color: #5db0e9;
+    
+font-size: 35px;
+    
+font-weight: 700;
+}
+.footprint img{
+    
+margin: 30px 0;
+}
+.footprint p{
+    
+color: #5db0e9;
+    
+font-size: 17px;
+}
+.footprint a{
+    
+} 
+/* pet_footprint section ends here */
